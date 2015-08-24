@@ -8,4 +8,11 @@ cache:
   directories:
     - node_modules
 notifications:
-  email: false
+  email: true
+deploy:
+  provider: npm
+  email: jeremy@tenfourty.com
+  api_key:
+    secure: reu0+FPfmdg0YwLuud6kqQr9NzFwP2kAt7yVX6Md7uJwtiImWiTITf0rtuMaRg8anHPh1jAjEtKIQuqOvC5/vvBMKjAP5PKRuYJz0J9vZ+OV7cRPvLlDKLDM0YY4FrurN5kTE3fW8LVMO7BejyJZHw5L3K2+Kzwod4Ah+yDv6SQKoJjYXH1dRp1wKJfRexU+XWWFX8TWMx5h6X+V2ImzKfmHU6GJcnIIleLrPzzvAiP11wIw/cJmIqU6nQklCgcNB6w3y6bxJXd0hixMhG1t5UW0g/qWMklBPuZF5cXteoozMf0hY4bWOO9LPVYVuIEa/UuwHT2AMUwSNR0AsgUsKPa0B+5X5N/0yG/9QJu6HrmdvJEE6DsIgR9eglZWp9RWFYHI3YEGpcHkExooqVNCeHYwnchia4wI0KJ9fu4nU+tdL4veQs8yRU9VQv2LSQgdOgyu9UdokaEXXWlp5kjfgVcWIm4d3msgw71Bi/vlum0ODao8q8f0BB7K1MbF7q46JIqceTNvVnpVWC37J90yuCm5yHTyBR24V4qoiTcAhe6ggJVTFTfM3hei5Yisg4JpDaylqCEi3b7aOGjl42D7H2uz5VhK2yTah0DLsmRFlcCyG3Ad4K17xG8BV/Oorm3bwqJWy+YIsMidKU+XIURtqOgAYryN4pbWgTDGsxRq5Jg=
+  on:
+    repo: tenfourty/hubut-curl
