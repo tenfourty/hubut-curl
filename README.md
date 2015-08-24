@@ -1,4 +1,4 @@
-# hubot-curl
+# hubot-curl [![Build Status](https://travis-ci.org/tenfourty/hubot-curl.png)](https://travis-ci.org/tenfourty/hubot-curl)
 
 This is a hubot script that calls curl (requires mac or linux to run).
 
